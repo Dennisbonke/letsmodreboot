@@ -1,0 +1,18 @@
+[
+{
+"modid": "LetsModReboot",
+"name": "Let's Mod Reboot",
+"description": "My version of Let's Mod Reboot",
+"version": "1.7.10-1.0",
+"credits": "Created by Dennisbonke, Inspirered by Pahimar",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authors": [ "Dennisbonke"],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+	 "mod_MinecraftForge"
+]
+}
