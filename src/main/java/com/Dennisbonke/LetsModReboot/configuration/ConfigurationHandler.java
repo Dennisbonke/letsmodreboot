@@ -22,6 +22,7 @@ public class ConfigurationHandler
         catch (Exception e)
         {
             // Log the exception
+            e.printStackTrace();
         }
         finally
         {
