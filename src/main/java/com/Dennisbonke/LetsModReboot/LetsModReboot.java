@@ -1,6 +1,7 @@
 package com.Dennisbonke.LetsModReboot;
 
 import com.Dennisbonke.LetsModReboot.handler.ConfigurationHandler;
+import com.Dennisbonke.LetsModReboot.init.ModItems;
 import com.Dennisbonke.LetsModReboot.proxy.IProxy;
 import com.Dennisbonke.LetsModReboot.reference.Reference;
 import com.Dennisbonke.LetsModReboot.utility.LogHelper;
@@ -26,6 +27,8 @@ public class LetsModReboot
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre Initialization Complete!");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
