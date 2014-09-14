@@ -3,6 +3,7 @@ package com.Dennisbonke.LetsModReboot;
 import com.Dennisbonke.LetsModReboot.handler.ConfigurationHandler;
 import com.Dennisbonke.LetsModReboot.proxy.IProxy;
 import com.Dennisbonke.LetsModReboot.reference.Reference;
+import com.Dennisbonke.LetsModReboot.utility.LogHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -22,17 +23,18 @@ public class LetsModReboot
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        LogHelper.info("Pre Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        LogHelper.info("Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-
+        LogHelper.info("Post Initialization Complete!");
     }
 }
