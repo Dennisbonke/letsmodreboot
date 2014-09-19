@@ -1,6 +1,6 @@
 package com.Dennisbonke.LetsModReboot.item;
 
-public class ItemMapleLeaf extends ItemLMRB
+public class ItemMapleLeaf extends ItemLMBR
 {
     public ItemMapleLeaf()
     {

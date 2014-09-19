@@ -7,9 +7,9 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class ItemLMRB extends Item
+public class ItemLMBR extends Item
 {
-    public ItemLMRB()
+    public ItemLMBR()
     {
         super();
     }

@@ -29,6 +29,8 @@ public class LetsModReboot
         LogHelper.info("Pre Initialization Complete!");
 
         ModItems.init();
+
+
     }
 
     @Mod.EventHandler
