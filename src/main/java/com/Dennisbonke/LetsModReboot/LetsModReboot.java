@@ -1,6 +1,7 @@
 package com.Dennisbonke.LetsModReboot;
 
 import com.Dennisbonke.LetsModReboot.handler.ConfigurationHandler;
+import com.Dennisbonke.LetsModReboot.init.ModBlocks;
 import com.Dennisbonke.LetsModReboot.init.ModItems;
 import com.Dennisbonke.LetsModReboot.proxy.IProxy;
 import com.Dennisbonke.LetsModReboot.reference.Reference;
@@ -30,7 +31,7 @@ public class LetsModReboot
 
         ModItems.init();
 
-
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

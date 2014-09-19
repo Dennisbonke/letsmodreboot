@@ -6,5 +6,6 @@ public class BlockFlag extends BlockLMRB
     {
         super();
         this.setBlockName("flag");
+        this.setBlockTextureName("flag");
     }
 }
