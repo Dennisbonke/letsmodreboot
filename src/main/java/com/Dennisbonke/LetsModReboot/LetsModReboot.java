@@ -3,6 +3,7 @@ package com.Dennisbonke.LetsModReboot;
 import com.Dennisbonke.LetsModReboot.handler.ConfigurationHandler;
 import com.Dennisbonke.LetsModReboot.init.ModBlocks;
 import com.Dennisbonke.LetsModReboot.init.ModItems;
+import com.Dennisbonke.LetsModReboot.init.Recipes;
 import com.Dennisbonke.LetsModReboot.proxy.IProxy;
 import com.Dennisbonke.LetsModReboot.reference.Reference;
 import com.Dennisbonke.LetsModReboot.utility.LogHelper;
@@ -37,6 +38,7 @@ public class LetsModReboot
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        Recipes.init();
         LogHelper.info("Initialization Complete!");
     }
 
