@@ -1,5 +1,6 @@
 package com.Dennisbonke.LetsModReboot.item;
 
+import com.Dennisbonke.LetsModReboot.creativetab.CreativeTabLMRB;
 import com.Dennisbonke.LetsModReboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemLMBR extends Item
     public ItemLMBR()
     {
         super();
+        this.setCreativeTab(CreativeTabLMRB.LMBR_TAB);
     }
 
     @Override

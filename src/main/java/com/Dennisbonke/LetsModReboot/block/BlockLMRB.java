@@ -1,5 +1,6 @@
 package com.Dennisbonke.LetsModReboot.block;
 
+import com.Dennisbonke.LetsModReboot.creativetab.CreativeTabLMRB;
 import com.Dennisbonke.LetsModReboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockLMRB extends Block
     public BlockLMRB(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabLMRB.LMBR_TAB);
     }
 
     public BlockLMRB()
